@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+    <body>
+        <div class="container mt-5">
+    <h1>Temperature Converter</h1>
+    <p>Enter a temperature and select the unit to convert it to the other unit:</p>
+
+    <form action="TemperatureConverterServlet" method="post" class="form-inline">
+      <div class="form-group mb-2">
+        <label for="temperature" class="sr-only">Temperature</label>
+        <input type="text" class="form-control" id="temperature" name="temperature" placeholder="Temperature">
+      </div>
+      <div class="form-group mx-sm-3 mb-2">
+        <label for="unit" class="sr-only">Unit</label>
+        <select class="form-control" id="unit" name="unit">
+          <option value="Celsius">Celsius</option>
+          <option value="Fahrenheit">Fahrenheit</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-primary mb-2">Convert</button>
+    </form>
+     </div>
+    </body>
+</html>

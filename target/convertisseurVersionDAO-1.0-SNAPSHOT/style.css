@@ -1,0 +1,12 @@
+
+/* 
+    Created on : 22 déc. 2022, 17 h 21 min 46 s
+    Author     : Ismail
+*/
+
+
+.card {
+  border: 2px solid blue;
+  border-radius: 5px;
+  transition: border-color 0.3s, transform 0.3s;
+}
