@@ -15,8 +15,6 @@ public class Temperature {
         this.unit = unit;
     }
 
- 
-
       public double getTemperature() {
         return temperature;
     }

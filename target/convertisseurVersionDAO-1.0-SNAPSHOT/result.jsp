@@ -24,7 +24,7 @@
                 // Retrieve the converted temperature from the request object
                 double convertedTemperature = (Double) request.getAttribute("convertedTemperature");
                                 %>
-                                <p><%= convertedTemperature%></p></strong></p>
+                                <p class="text-center"style="color: red"><%= convertedTemperature%></p></strong></p>
                         <br>
                         <img src="Images/convert.JPG" alt="logo"/>
                     </div>
